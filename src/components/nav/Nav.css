@@ -1,0 +1,58 @@
+
+.navbar{
+  /* background-color: green; */
+  display: flex;
+  list-style: none;
+  padding: 20px 0px;
+  position: relative;
+  
+ 
+  width: 100%;
+  height: 8vh;
+  font-size: small;
+ 
+  /* position: absolute; */
+ 
+
+   /* font-weight: 400;  */
+   /* background-color: lightblue; */
+
+  
+}
+.logo{
+
+
+  background-repeat: no-repeat;
+  flex-grow: 3;
+  /* background-color: red; */
+  font-weight: 700;
+  color:white ;
+  font-style:oblique;
+  text-decoration: line-through;
+  flex-direction: column;
+  display: flex;
+  font-size: x-large;
+  place-items: center;
+  justify-content: center;
+  align-items: flex-start;
+  .mera{
+    width: fit-content;
+    background-color:#b40000;
+    border-radius: 50%;
+    padding: 5px;
+    opacity: 60%;
+  }
+}
+.menu{
+
+  flex-grow: 1;
+  display: flex;
+  
+  
+ 
+}
+.menu li {
+  flex-grow: 1;  
+  text-align: end;
+
+}

@@ -1,0 +1,143 @@
+.hero {
+    height: 90vh;
+    /* overflow: hidden; */
+    
+
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background-color: red; */
+}
+.bio{
+    /* background-color: red; */
+    display: flex;
+    width: 30%;
+    height: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+    text-wrap: wrap;
+    flex-grow:1;
+    font-size: large;
+    line-height: 3rem;
+
+    .btnWel{
+        background-color: #54192b;
+        padding: 0px 10px;
+        border-radius: 5px;
+
+    }
+    .name{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+    .des{
+        font-size: small;
+        margin-top: 30px;
+        line-height: 1.3rem;
+    }
+    
+}
+
+.portrait{
+    flex-grow: 2;
+    transform: translateY(8vh);
+    filter: brightness(75%);
+    /* filter: saturate(50%); */
+    /* background-color: blue; */
+    /* background-image: url('../../person.png') ;
+    
+    height: 550px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    transition: 1s;
+    transform: translateY(5vh); */
+    .design{
+        height: 500px;
+        width: auto;
+        display: flex;
+        place-items: center;
+        align-items: center;
+        justify-content: center;
+        transform: translateY(-10px);
+        
+        
+       
+
+       
+        .outCircle{
+            height: 300px;
+            width: 300px;
+            background-color: var(--primary);
+            transform: translate(80px,-150px);
+            position: absolute;
+            border-radius: 50%;
+            opacity: 5%;
+        }
+        .midCircle{
+            height: 300px;
+            width: 300px;
+            background-color: var(--primary);
+            transform: translate(50px,-80px);
+            border-radius: 50%;
+            position: absolute;
+            opacity: 15%;
+            /* filter: blur(20px); */
+            
+
+        }
+        .innerCircle{
+            height: 300px;
+            width: 300px;
+            /* filter: blur(50px); */
+            
+            background-color: var(--primary);
+            position: absolute;
+            border-radius: 50%;
+        }
+        .imgr{
+            height: 500px;
+            width: 500px;
+            
+           
+            position: absolute;
+            background-image: url('../../person.png') ;
+            background-position: center; 
+            background-repeat: no-repeat; 
+            background-size: cover;
+            /* transform: translateY(9vh);  */
+            
+       
+            
+        }
+       
+    }
+    
+    
+   
+}
+/* .portrait:hover {
+    cursor: pointer;
+    filter: brightness(70%);
+
+} */
+
+.socials{
+    flex-grow: 1;
+    font-weight: 600;
+    color: var(--primary) !important;
+    rotate: 90deg;
+    position: absolute;
+    right:-50px;
+    
+
+    
+    a {
+        color: var(--primary);
+        font-weight: 200;
+        
+    }
+}

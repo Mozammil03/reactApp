@@ -1,0 +1,22 @@
+.dis{
+   
+    position: absolute;
+    /* height:auto;
+    width: auto; */
+    z-index: 1;
+    margin-top: 8%;
+    /* margin-left: 20%; */
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    /* filter: blur(5px); */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 10px 10px 50px black;
+    /* border-left:groove grey; */
+
+}
