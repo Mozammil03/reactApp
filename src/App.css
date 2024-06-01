@@ -25,6 +25,7 @@
     padding: 4px 8px;
     border-radius: 4px;
     cursor: pointer;
+    user-select: none;
 }
 a{
     text-decoration: none;

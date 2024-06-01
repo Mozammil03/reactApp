@@ -70,12 +70,13 @@ const Mines = () => {
 
   return (
     <div className="minesContainer">
+      <h1 className="headd">The Guess Game</h1>
       <div className="tilesContainer" ref={tilesContainerRef}>
         {fun()}
       </div>
       <div className="butt">
       
-        <div className="reveal btn" onClick={change}>
+        <div className="reveal btn" onClick={change} disabled>
         Reveal
       </div>
       <div className="reset btn" onClick={reset}>Reset</div>
