@@ -8,7 +8,7 @@ const Hero = () => {
     <div className='hero'>
       <div className='bio'>
        <div className='btnWel'>Welcome, I'm</div>
-       <div className='name'><h1>Mozammil</h1></div>
+       <div className='name'><h1>Onkar Singh</h1></div>
        <div className='job'>Software Engineer</div>
        <div className='des'>Passionate software engineer dedicated to crafting elegant solutions to complex problems. Proficient in multiple programming languages and technologies. Committed to continuous learning and staying abreast of industry trends.</div>
       </div>
